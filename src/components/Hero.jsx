@@ -1,4 +1,5 @@
 import Avtar from "../assets/avtar.jpg"
+import CV from "../assets/Ankit_Resume.pdf"
 import { FaTwitterSquare, FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
@@ -19,7 +20,7 @@ const Hero = () => {
             </span>
             <p className="font-mono text-xl text-gray-500 w-[280px] mb-6 xl:text-2xl">With a passion for developing Modern React web pages for Businesses.</p>
 
-            <a className="font-mono bg-blue-600 px-4 py-2 text-xl rounded-xl text-white shadow-lg xl:py-3 xl:text-2xl xl:px-4 xl:mt-7" href="" download>
+            <a className="font-mono bg-blue-600 px-4 py-2 text-xl rounded-xl text-white shadow-lg xl:py-3 xl:text-2xl xl:px-4 xl:mt-7" href={CV} download>
                 Resume
             </a>
         </div>
